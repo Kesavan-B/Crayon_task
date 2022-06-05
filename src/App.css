@@ -1,0 +1,649 @@
+.itemlist {
+  background: whitesmoke;
+}
+/* searchfield style */
+.search-input {
+  justify-content: end;
+}
+.carticn {
+  margin: 0;
+  color: #000 !important;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  padding: 0px 25px;
+}
+
+/* Navbar style */
+
+.all-links {
+  margin: 0px auto;
+}
+img.ktm-logo {
+  width: 100%;
+}
+.sort-filter-btn {
+  padding-right: 90px;
+  font-size: 16px;
+}
+.hide-fil-btn {
+  color: #fff !important;
+  text-transform: none !important;
+  font-size: 16px !important;
+  padding-left: 45px !important;
+}
+.manimg {
+  background-image: url(./assests/images/men.jpg);
+  width: 100%;
+  min-height: 250px;
+  background-size: cover;
+  margin-bottom: 8px;
+  max-width: 100%;
+}
+.manimg-bg {
+  background-color: #00000069;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+.catecolors {
+  opacity: 0.8;
+}
+.man-title {
+  width: 100%;
+  padding: 50px 0px;
+}
+.type-btn {
+  justify-content: center;
+}
+.catecolors {
+  background-color: #fff !important;
+  color: #000 !important;
+  margin: 0px 10px !important;
+}
+.sort-filter {
+  position: absolute;
+  left: 83em;
+  top: 8em;
+}
+.text h1 {
+  margin-left: 20px;
+}
+.bike-cont p {
+  margin-left: 18px;
+  width: 73%;
+  font-size: 18px;
+  font-weight: 500;
+}
+.btngrp {
+  margin-top: 8px;
+}
+.MuiBox-root.css-1t6c9ts {
+  justify-content: space-evenly;
+}
+.logos {
+  padding: 0em 2em;
+}
+.bike-cont {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+/* aside style */
+
+.cyclecat li {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 8px;
+  line-height: 25px;
+}
+.cyclecat ul {
+  padding-left: 20px;
+}
+.cyclecat {
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+.cyclecat button {
+  color: #000;
+  text-transform: none;
+  padding: 5px 15px !important;
+  width: 105px;
+  height: 38px;
+  margin: 3px 7px;
+  border-color: gray;
+  font-size: 10px;
+}
+.inch-btn {
+  display: flex;
+  flex-wrap: wrap;
+}
+.inch-btn button {
+  width: 40%;
+  margin: auto;
+  margin-top: 6px;
+}
+/* card style */
+
+.ratings-review {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ratings-review button:nth-child(odd) {
+  border: 0.1px solid #c5c5c5;
+  background: transparent;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background: #5ad235;
+  color: #fff;
+  font-size: 10px !important;
+}
+.ratings-review button:nth-child(even) {
+  border: 0.1px solid #c5c5c5;
+  background: transparent;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-size: 10px;
+}
+.btns {
+  display: flex;
+}
+.cardbox {
+  padding: 15px 3px 0px;
+}
+.card-d {
+  border-radius: 12px !important;
+  max-width: 350px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.card-d:hover {
+  box-shadow: 0px 0px 5px 1px #c5c5c5;
+}
+p.p-card-side {
+  margin: 0px padding;
+  margin: 0px;
+  text-align: center;
+  padding: 1px 11px;
+  transform: skewX(-20deg) skewY(0);
+}
+.bike-type-color {
+  height: 26px;
+  width: 70px;
+  content: "";
+  position: absolute;
+  right: 0px;
+  margin-right: -40px;
+  z-index: 99;
+  top: 5px;
+  color: #fff;
+  transform: rotate(90deg);
+}
+.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-10.css-14y6hyd-MuiGrid-root {
+  background-color: whitesmoke;
+  padding-top: 25px;
+}
+
+.bike-types {
+  position: relative;
+}
+.hearticn {
+  font-weight: 100 !important;
+  float: right;
+  width: 20px !important;
+  cursor: pointer;
+}
+.availcolors {
+  display: flex;
+  justify-content: space-evenly;
+}
+.availcolors img {
+  width: 100%;
+  border-radius: 8px;
+  max-width: 15px;
+  width: 100%;
+  border-radius: 50px;
+}
+.colors p {
+  color: #959595;
+}
+.cycleimg {
+  width: 100% !important;
+  max-width: 250px;
+  margin: auto;
+  height: 150px;
+  object-fit: contain !important;
+}
+.subtitles {
+  display: flex;
+  justify-content: center;
+  font-size: 12px !important;
+  margin-bottom: 5px;
+  align-items: center;
+}
+
+.price {
+  text-align: left;
+  font-size: 15px;
+  font-weight: 700;
+  color: #5ad235;
+}
+.offer1 {
+  display: flex;
+}
+.titl {
+  text-align: center;
+  font-weight: 500 !important;
+  margin-top: 5px;
+  font-size: 14px;
+  letter-spacing: 2.5px;
+  margin-bottom: 0px;
+}
+.rup {
+  font-size: 15px !important;
+}
+.allprice {
+  font-size: 12px !important;
+  display: flex;
+  justify-content: space-between;
+  margin: 14px 0px;
+}
+.rup1 {
+  font-size: 12px !important;
+  margin-top: 2px;
+  text-decoration: line-through;
+}
+span.underline {
+  text-decoration: line-through;
+  color: #616161;
+  font-weight: 400;
+}
+span.offer2 {
+  margin-left: 5px;
+  color: #5ad235;
+}
+.strike {
+  display: flex;
+  color: #616161;
+}
+span.emi {
+  font-size: 9px;
+  color: #959595;
+}
+.sub1 {
+  text-align: center;
+}
+.online {
+  padding-top: 50px;
+  text-align: center;
+}
+.items {
+  display: flex;
+  justify-content: space-between;
+}
+.redbg {
+  background-color: #ff0a0a !important;
+  color: #fff !important;
+}
+.bluebg {
+  background-color: darkblue;
+}
+.skybg {
+  background-color: #0e9fff !important;
+  color: #fff !important;
+}
+.purplebg {
+  background-color: purple !important;
+}
+.orangebg {
+  background-color: orangered;
+}
+.greenbg {
+  background-color: #5ad235;
+}
+.yellowbg {
+  background-color: #ffdc00 !important;
+}
+.yellowbg:hover {
+  color: #fff !important;
+}
+.redbg:hover {
+  color: #000 !important;
+}
+.skybg:hover {
+  color: #000 !important;
+}
+
+/*content style  */
+
+.all-contents {
+  padding-top: 50px;
+}
+.buy {
+  text-align: center;
+}
+.leftcont {
+  color: #959595;
+  text-align: justify;
+  width: 60%;
+  padding: 0px 20px;
+}
+.leftcont h3 {
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 15px;
+}
+.rightcont {
+  padding: 0px 20px;
+  width: 40%;
+}
+.rightcont ul {
+  padding-left: 0;
+}
+.rightcont h3 {
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 15px;
+}
+.items {
+  border-bottom: 1px solid #e1e1e1;
+  cursor: pointer;
+}
+.hover:hover {
+  color: #5ad235;
+}
+
+/* footer style */
+
+.foot {
+  background: #081916;
+  padding-top: 50px !important;
+  color: #fff;
+}
+.list_item {
+  display: flex;
+  justify-content: center;
+  width: 85%;
+
+  margin: 0px auto;
+}
+.list_item .footersection {
+  width: 20%;
+}
+.menus {
+  list-style: none;
+  line-height: 45px;
+}
+.sidebar {
+  background-color: #fff;
+}
+.filters h2 {
+  padding: 5px 0px 6px 28px;
+  letter-spacing: 1.5px;
+  font-size: 30px;
+}
+.filters h3 {
+  text-align: left;
+  color: #959595;
+  font-size: 16px;
+}
+.bnow {
+  width: 50%;
+}
+.quick {
+  width: 50%;
+}
+svg.mdicon {
+  color: #5ad235;
+  font-size: 19px;
+  margin: 17px 12px;
+}
+.sideicn {
+  padding: 0px 5px;
+  justify-content: left;
+}
+.crdicn {
+  color: #5ad235;
+  padding: 0px 4px;
+}
+.rcont-color {
+  color: #959595;
+  text-align: center;
+}
+.gearedtype {
+  display: flex;
+}
+.rcont-flex {
+  color: #959595;
+}
+.terms-policy {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.terms {
+  font-size: 12px;
+  padding-top: 10px;
+}
+.terms a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0px 10px;
+}
+.side-content {
+  background-color: #fff;
+}
+.ninetyone-logo {
+  width: 57%;
+  max-width: 35%;
+  padding-top: 20px;
+}
+.socialmedia.footersection {
+  padding-top: 20px;
+}
+.menus li:hover {
+  color: #5ad235;
+}
+.ninetyone-logo svg {
+  width: 202px;
+}
+.text-logo {
+  position: relative;
+  top: 0px;
+}
+.copyrights {
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+/* side filter nav */
+.MuiGrid-root.MuiGrid-grid-md-\[object.Object\].mobnav.css-wjgqhe-MuiGrid-root {
+  position: fixed;
+  bottom: -1px;
+  background: #ebebeb;
+  padding: 1px 114px;
+  z-index: 99;
+  text-align: center;
+  width: 100%;
+}
+.filter-tab {
+  color: #000 !important ;
+  text-transform: none !important;
+  font-size: 20px !important;
+}
+.mobnav-fil-head {
+  display: flex;
+  padding-top: 15px;
+  margin-left: 13px;
+}
+.pedal-head p {
+  margin-top: 0px;
+  padding-left: 10px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.pedal-icn {
+  font-size: 18px;
+  color: #5ad235;
+}
+.pedal-head {
+  padding: 0px 0px;
+}
+.inch-btn {
+  display: flex;
+  flex-wrap: wrap;
+}
+.inch-btn-mobnav button {
+  width: 47%;
+  margin: auto;
+  margin-top: 8px;
+}
+.cyclecat-mobnav button {
+  color: #000;
+  text-transform: none;
+  width: 105px;
+  height: 38px;
+  margin: 2px 2px;
+  border-color: gray;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .ninetyone-logo {
+    width: 81%;
+  }
+  .buy{
+    width: 80%;
+    margin: auto;
+    font-size: 26px;
+  }
+  .MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.search-input.css-hyum1k-MuiToolbar-root {
+    display: none;
+  }
+  .nav-logo {
+    width: 100%;
+  }
+  .manimg {
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .man-title {
+    width: 100%;
+    padding: 30px 0px;
+  }
+  .btngrp {
+    display: none;
+  }
+  .side-content {
+    display: none;
+  }
+  .nav-logo {
+    width: 100%;
+  }
+  .bike-cont p {
+    width: 91%;
+    font-size: 16px;
+    text-align: justify;
+  }
+  .card-d {
+    margin: 0px auto;
+  }
+  .card-conts {
+    padding-top: 0px;
+  }
+  .fullcont.MuiBox-root.css-z7mtfw {
+    display: block;
+    width: 100%;
+  }
+  .leftcont.MuiBox-root.css-mpcbhl {
+    margin: 0px;
+    width: 87%;
+    padding: 1px 22px;
+    font-size: 15px;
+  }
+  .rightcont.MuiBox-root.css-17dtlax {
+    padding: 0px 0px;
+    width: 100%;
+    font-size: 14px;
+  }
+  .rightcont ul {
+    padding-left: 19px;
+  }
+  .list_item {
+    flex-wrap: wrap;
+    width: 90%;
+  }
+  .list_item .footersection {
+    width: 80%;
+  }
+  .socialmedia.footersection {
+    padding-top: 2px;
+  }
+  .copyrights {
+    font-size: 12px;
+    text-align: center;
+  }
+  .terms {
+    display: none;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  img.ktm-logo {
+    width: 100%;
+    max-width: 300px;
+  }
+  .manimg {
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .side-content {
+    display: none;
+  }
+  .css-1cmksfb-MuiTypography-root-MuiLink-root {
+    padding: 20px;
+  }
+  .cardbox {
+    margin-left: 16px;
+  }
+  .list_item {
+    width: 95%;
+  }
+  .ninetyone-logo svg {
+    width: 140px;
+  }
+  .text-logo {
+    top: -11px;
+  }
+  .menus {
+    padding-left: 0;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .list_item .footersection {
+    width: 82%;
+  }
+  .ninetyone-logo {
+    width: 81%;
+  }
+  .css-ofrcno-MuiGrid-root > .MuiGrid-item {
+    padding-left: 27px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  button.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButtonBase-root.css-1e4e1qc-MuiButtonBase-root-MuiButton-root {
+    font-size: 12px;
+  }
+  .side-content {
+    display: block;
+  }
+  .list_item .footersection {
+    width: 20%;
+  }
+  .MuiGrid-root.MuiGrid-grid-md-\[object.Object\].mobnav.css-wjgqhe-MuiGrid-root {
+    display: none;
+  }
+}
