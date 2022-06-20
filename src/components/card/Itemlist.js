@@ -14,6 +14,9 @@ import {
   Divider,
   Grid,
 } from "@mui/material";
+import Listview from "../card/Listview";
+
+
 
 function Itemlist() {
   return (
@@ -155,6 +158,7 @@ function Itemlist() {
                 </Grid>
                 );
             })}
+          <Listview/>
           <Content />
         </Grid>
       </div>

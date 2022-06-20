@@ -589,6 +589,20 @@ MuiGrid-root.MuiGrid-grid-xs-6.right-list-cont.css-1jssz31-MuiGrid-root {
   display: flex  !important;
   justify-content: end !important;
 }
+.all-list-card{
+  width: 100%;
+}
+/* .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.list-cards.css-bhp9pd-MuiPaper-root-MuiCard-root {
+  margin-bottom: 25px;
+} */
+.list-cards{
+  margin-bottom: 25px;
+  
+}
+.list-cards:hover{
+  box-shadow: 0px 0px 5px 1px #c5c5c5;
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {

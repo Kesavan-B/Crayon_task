@@ -8,7 +8,7 @@ import CurrencyRupeeIcon from "@mui/icons-material/CurrencyRupee";
 import Content from '../contents/Content'
 import { Change } from "../card/Change";
 import { Allcard } from "../card/Allcard";
-import Listview from "../card/Listview";
+import Itemlist from "../card/Itemlist"
 
 function Sidenav() {
   return (
@@ -107,13 +107,12 @@ function Sidenav() {
             </div>
           </Grid>
           <Grid container item xs={12} md={10}  className="card-conts" style={{paddingTop:'1px'}}>
-            {/* <Itemlist /> */}
+            <Itemlist />
 
             <Change/>
             {/* <Allcard/> */}
             <Content />
           </Grid>
-          <Listview/>
         </Grid>
       </div>
     </div>

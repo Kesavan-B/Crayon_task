@@ -15,9 +15,10 @@ function Listview() {
                     CycleData && CycleData.map((e) => {
                         return (
                             <div>
-                                <Card>
+                                <Card className='list-cards'>
                                 <Grid container
                                     direction="row"
+                                    
                                 >
                                     <Grid item xs={6}> 
                                     <div className='bike-types'><div className="list-bike-type-color">
