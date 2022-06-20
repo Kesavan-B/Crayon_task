@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Grid } from "@mui/material";
+import { Change } from "../card/Change";
 
 function Navimg() {
   return (

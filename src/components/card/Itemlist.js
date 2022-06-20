@@ -18,6 +18,7 @@ import {
 function Itemlist() {
   return (
     <div className="itemlist">
+
       <div className="cardbox">
         <Grid
           container
@@ -27,10 +28,12 @@ function Itemlist() {
           style={{ background: "whitesmoke" }}
         >
           {/*mapping card datas*/}
-          {CycleData &&
+          {
+            
+          CycleData &&
             CycleData.map((e, index) => {
               return (
-                <Grid
+                <Grid 
                   key={index}
                   item
                   xl={3}
@@ -45,7 +48,7 @@ function Itemlist() {
                       <div className="maintitle">
                         <h3 className="titl">
                           {e.title}
-                          <FavoriteBorderOutlined className="hearticn" />{" "}
+                          <FavoriteBorderOutlined className="list-hearticn" />{" "}
                         </h3>
                       </div>
 
@@ -156,6 +159,8 @@ function Itemlist() {
         </Grid>
       </div>
     </div>
+   
+
   );
 }
 

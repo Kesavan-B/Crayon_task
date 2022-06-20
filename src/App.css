@@ -123,6 +123,9 @@ img.ktm-logo {
   margin: auto;
   margin-top: 6px;
 }
+MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-2.css-ofrcno-MuiGrid-root {
+  margin-top: 0px;
+}
 /* card style */
 
 .ratings-review {
@@ -505,6 +508,86 @@ svg.mdicon {
   height: 38px;
   margin: 2px 2px;
   border-color: gray;
+}
+
+/* listtypecard */
+.list-availcolors {
+  display: flex;
+  justify-content: center;
+}
+.list-availcolors img {
+  width: 100%;
+  border-radius: 8px;
+  max-width: 15px;
+  width: 100%;
+  border-radius: 50px;
+}
+.list-bike-type-color {
+  height: 26px;
+  width: 70px;
+  content: "";
+  position: absolute;
+  left: 0px;
+  margin-right: -40px;
+  z-index: 99;
+  top: 113px;
+  color: #fff;
+  transform: rotate(90deg);
+}
+.list-bike-types {
+  position: relative;
+}
+.list-titl {
+  text-align: center;
+  font-weight: 500 !important;
+  margin-top: 5px;
+  font-size: 25px;
+  letter-spacing: 2.5px;
+  margin-bottom: 0px;
+}
+.list-subtitles {
+  display: flex;
+  justify-content: center;
+  font-size: 18px !important;
+  margin-bottom: 5px;
+  align-items: center;
+}
+.list-allprice {
+  font-size: 20px !important;
+  margin: 14px 0px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  padding: 75px 0px;
+}
+.list-price {
+ 
+  font-size: 20px;
+  font-weight: 700;
+  color: #5ad235;
+}
+.list-offer1 {
+  display: flex;
+  justify-content: center;
+}
+span.list-emi {
+  font-size: 15px;
+  color: #959595;
+}
+MuiGrid-root.MuiGrid-grid-xs-6.right-list-cont.css-1jssz31-MuiGrid-root {
+  padding-top: 99px;
+}
+.list-btns {
+  display: flex;
+}
+.MuiCardMedia-root.MuiCardMedia-media.MuiCardMedia-img.list-img.css-o69gx8-MuiCardMedia-root {
+  width: 100%;
+  max-width: 84%;
+  margin: 0px auto;
+}
+.grid-list-btn{
+  display: flex  !important;
+  justify-content: end !important;
 }
 
 /* Extra small devices (phones, 600px and down) */
