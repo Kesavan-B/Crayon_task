@@ -5,7 +5,7 @@ import Navbar from "./navbar/Navbar";
 import Sidenav from "./navbar/Sidenav";
 import Mobilenav from "./navbar/Mobilenav";
 // import Listview from "./card/Listview";
-// import New from "./card/New"
+import New from "./card/New"
 
 
 
@@ -17,7 +17,7 @@ function Main() {
       {/* <Listview/> */}
       <Sidenav />
       
-      {/* <New/> */}
+      <New/>
       <Footer />
       <Mobilenav/>
     </div>
